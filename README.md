@@ -1,5 +1,5 @@
-# elasticDB
-A fault tolerant load balancing database. Built with 4 AWS EC2 virtual machine instances.
+# Fault-tolerant Load Balancing Database
+This project is a fault tolerant load balancing database. Built with 4 AWS EC2 virtual machine instances.
 
 # Project description :
 
