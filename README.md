@@ -3,13 +3,13 @@ A fault tolerant load balancing database. Built with 4 AWS EC2 virtual machine i
 
 # Project description :
 
-Developed an elastic distributed database using MySQL replication and used it to serve as the backend for a multi-tier web application running TPC-W benchmark (AWS EC2, MySQL(replication), multi-tier web application)
+1) Developed an elastic distributed database using MySQL replication and used it to serve as the backend for a multi-tier web application running TPC-W benchmark (AWS EC2, MySQL(replication), multi-tier web application)
 
-Developed a load balancer to route the browsing queries to master and route the ordering queries to slaves in a round-robin manner (Maven, multi-thread, high availability & dynamic scalability distributed database)
+2) Developed a load balancer to route the browsing queries to master and route the ordering queries to slaves in a round-robin manner (Maven, multi-thread, high availability & dynamic scalability distributed database)
 
-Guarantee the high availability (HA) of the database in real-time using backup slave
+3) Guarantee the high availability (HA) of the database in real-time using backup slave
 
-Scale out/in the database server according to real-time workload and network delay
+4) Scale out/in the database server according to real-time workload and network delay
 
 Among 4 AWS EC2 instances, 1 serves as master server, 2 serve as slave server, 1 serve as candidate server.
 
