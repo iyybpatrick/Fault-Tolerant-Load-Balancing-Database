@@ -29,4 +29,4 @@ Among 4 AWS EC2 instances, 1 serves as master server, 2 serve as slave server, 1
 
 1) Master is the only server responses to clients' write query.
 
-2) Implemented with MySQL replication, slaves listen to the master by pulling master's binary log when master's database get updated(write query from clients).
+2) Implemented with MySQL replication, slaves listen to the master by pulling master's binary log when master's database get updated(write queries or update queries from clients).
