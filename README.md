@@ -1,5 +1,5 @@
 # Fault-tolerant Load Balancing Database
-This project is a fault tolerant load balancing database. Built with 4 AWS EC2 virtual machine instances.
+This project was done during Nov 2016 ~ Feb 2017, it is a fault tolerant load balancing database. Built with 4 AWS EC2 virtual machine instances.
 
 # Project description :
 
